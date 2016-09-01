@@ -43,6 +43,20 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 Specify what it takes to deploy your app.
 
+### Actual Shit
+
+#### Routes
+
+*   Generare a Routed with `ember g route todos`
+  *   Adds `todo` route, template and test.
+  *   Adds `/todos` route ins `app/router.js`
+  <!-- Routes load models or actions associated with loading models (transitons, ect) -->
+  <!-- Top level template.hbs file used to load components -->
+
+*   Generate a `todo` component with `ember g component todo-widget`
+
+*   Generate an `add todo` component widget with `ember g component add-todo`
+
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
@@ -50,4 +64,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
